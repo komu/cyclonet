@@ -1,3 +1,6 @@
 syntax: glob
 Libs
 bin
+.DS_Store
+*.pidb
+*.userprefs

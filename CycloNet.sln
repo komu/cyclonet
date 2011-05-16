@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CycloNet.Physics", "CycloNet.Physics\CycloNet.Physics.csproj", "{25F61EE2-0710-4376-A40F-EC3BA1236080}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CycloNet.Physics.Demos", "CycloNet.Physics.Demos\CycloNet.Physics.Demos.csproj", "{9B40EE9A-9B6B-4B47-8DFC-7495A3B4EDF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +15,12 @@ Global
 		{25F61EE2-0710-4376-A40F-EC3BA1236080}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25F61EE2-0710-4376-A40F-EC3BA1236080}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25F61EE2-0710-4376-A40F-EC3BA1236080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B40EE9A-9B6B-4B47-8DFC-7495A3B4EDF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B40EE9A-9B6B-4B47-8DFC-7495A3B4EDF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B40EE9A-9B6B-4B47-8DFC-7495A3B4EDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B40EE9A-9B6B-4B47-8DFC-7495A3B4EDF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = CycloNet.Physics\CycloNet.Physics.csproj
+		StartupItem = CycloNet.Physics.Demos\CycloNet.Physics.Demos.csproj
 	EndGlobalSection
 EndGlobal

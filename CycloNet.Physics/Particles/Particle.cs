@@ -98,7 +98,7 @@ namespace CycloNet.Physics.Particles
             get { return InverseMass >= 0.0f; }
         }
 
-        internal void ClearAccumulator()
+        public void ClearAccumulator()
         {
             forceAccum = Vector3.Zero;
         }
