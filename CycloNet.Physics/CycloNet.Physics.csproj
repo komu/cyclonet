@@ -49,6 +49,7 @@
     <Compile Include="Particles\IParticleForceGenerator.cs" />
     <Compile Include="Particles\ParticleForceGenerators.cs" />
     <Compile Include="MathUtils.cs" />
+    <Compile Include="RandomExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

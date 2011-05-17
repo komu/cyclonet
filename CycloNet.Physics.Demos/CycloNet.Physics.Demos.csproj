@@ -48,6 +48,7 @@
     <Compile Include="DemoApplication.cs" />
     <Compile Include="Ballistic\BallisticDemo.cs" />
     <Compile Include="TimingData.cs" />
+    <Compile Include="Fireworks\FireworksDemo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -58,5 +59,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Ballistic\" />
+    <Folder Include="Fireworks\" />
   </ItemGroup>
 </Project>

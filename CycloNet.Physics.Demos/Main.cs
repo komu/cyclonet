@@ -6,7 +6,8 @@ namespace CycloNet.Physics.Demos
     {
         public static void Main(string[] args)
         {
-            using (var win = new Ballistic.BallisticDemo())
+            using (var win = new Fireworks.FireworksDemo())
+            //using (var win = new Ballistic.BallisticDemo())
             {
                 win.Run();
             }
