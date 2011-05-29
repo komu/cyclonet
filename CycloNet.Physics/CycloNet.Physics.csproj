@@ -50,6 +50,8 @@
     <Compile Include="Particles\ParticleForceGenerators.cs" />
     <Compile Include="MathUtils.cs" />
     <Compile Include="RandomExtensions.cs" />
+    <Compile Include="Particles\ParticleLink.cs" />
+    <Compile Include="Particles\ParticleConstraint.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

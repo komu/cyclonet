@@ -9,7 +9,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>CycloNet.Physics.Demos</RootNamespace>
     <AssemblyName>CycloNet.Physics.Demos</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -49,6 +49,8 @@
     <Compile Include="Ballistic\BallisticDemo.cs" />
     <Compile Include="TimingData.cs" />
     <Compile Include="Fireworks\FireworksDemo.cs" />
+    <Compile Include="Bridge\BridgeDemo.cs" />
+    <Compile Include="MassAggregateApplication.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -60,5 +62,9 @@
   <ItemGroup>
     <Folder Include="Ballistic\" />
     <Folder Include="Fireworks\" />
+    <Folder Include="Bridge\" />
+    <Folder Include="Platform\" />
+    <Folder Include="BigBallistic\" />
+    <Folder Include="Blob\" />
   </ItemGroup>
 </Project>
